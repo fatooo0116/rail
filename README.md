@@ -1,8 +1,8 @@
 # rail
 
 ### Router
-default root page<br/>
-root :to => "demo#index"
+    default root page<br/>
+    root :to => "demo#index"
 
 
 ### View
