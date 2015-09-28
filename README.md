@@ -11,3 +11,4 @@
         :controller=>'demo',
         :action=>'index'
     ) 
+    redirect_to("http://www.yahoo.com.tw")
