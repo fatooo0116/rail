@@ -18,3 +18,8 @@
     
 ##### Table column Type    
     binary , boolean , date , datetime , decimal , float , integer , string , text , time
+    :limit => size
+    :default => value
+    :null => true/false
+    :precision => number
+    :scale => number
