@@ -32,3 +32,20 @@
     rake db:up VERSION=20132222222
     rake db:down VERSION=20132222222
     rake db:redo VERSION=20132222222
+    
+#### Model generator
+    rails g model TABLE-NAME [field[:type][:index]...]
+    [:index] -> 是否建立索引
+    
+    primary_key,
+    string,
+    text,
+    integer,
+    float,
+    decimal,
+    datetime,
+    timestamp,
+    time,date,
+    binary,
+    boolean,
+    json(only for PostgreSQL)
