@@ -1,14 +1,4 @@
 Rails.application.routes.draw do
-
-  get 'pages/home'
-
-  get 'pages/about'
-
-  # get "demo/index", to: 'demo#index'
-  # get "demo/", to: 'demo#index'
-
-  match ':controller(/:action(/:id))', :via => :get
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
